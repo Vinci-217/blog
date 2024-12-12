@@ -1,0 +1,43 @@
+.hide {
+  position: absolute;
+  left: 99999px;
+}
+
+.tab {
+  box-sizing: content-box;
+  display: flex;
+  font-size: 13px;
+  overflow-x: auto;
+  overflow-y: hidden;
+  color: var(--text-3);
+  white-space: nowrap;
+
+  & > div {
+    padding: 10px 12px 11px 12px;
+    cursor: pointer;
+    border-width: 0;
+    border-color: var(--divider);
+    border-bottom-width: 1px;
+    border-style: solid;
+    transition: color 150ms;
+    &:last-child {
+      width: 100%;
+      cursor: auto;
+    }
+    &:hover {
+      color: var(--text);
+    }
+  }
+}
+
+.tab_active {
+  color: var(--text) !important;
+  border-color: var(--c-yellow-1) !important;
+}
+
+.preview {
+  padding: 8px;
+  height: 100%;
+  max-height: 70vh;
+  overflow: auto;
+}

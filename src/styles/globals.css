@@ -1,0 +1,108 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  font-family: inherit;
+}
+
+body {
+  margin: 0;
+  color: var(--text-1);
+  overflow-x: hidden;
+  background-color: var(--bg-body);
+  text-rendering: optimizeLegibility;
+  transition: background-color 300ms;
+  scrollbar-color: var(--bg-scrollbar);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: var(--text);
+  & code {
+    font-size: inherit !important;
+  }
+  & a {
+    font-size: inherit !important;
+  }
+}
+h1 {
+  font-size: 28px;
+}
+h2 {
+  font-size: 22px;
+}
+h3 {
+  font-size: 18px;
+}
+h4,
+h5,
+h6 {
+  font-size: 16px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 4px;
+  background-color: var(--bg-scrollbar);
+}
+
+::-webkit-scrollbar-corner {
+  background-color: transparent;
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+/* list */
+ol,
+ul {
+  margin-top: 6px;
+  padding-left: 28px;
+  line-height: 26px;
+  & > li {
+    padding-left: 4px;
+  }
+}
+
+p {
+  margin: 12px 0;
+  line-height: 28px;
+  word-break: break-all;
+}
+
+strong,
+em {
+  color: var(--text);
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  font-weight: 500;
+}
+
+img {
+  -webkit-tap-highlight-color: transparent;
+}
+
+svg {
+  display: block;
+  width: 1em;
+  height: 1em;
+  fill: currentColor;
+}
+
+.verticalLine {
+  height: 1em;
+  width: 1px;
+  background-color: var(--bg-vertical-line);
+}

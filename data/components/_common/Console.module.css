@@ -1,0 +1,41 @@
+.console {
+  font-size: 13px;
+  max-height: 70vh;
+  overflow: auto;
+  & > div {
+    padding: 8px 10px;
+    border-bottom: 1px solid var(--divider);
+    display: flex;
+    gap: 12px;
+    justify-content: space-between;
+  }
+}
+
+.right {
+  white-space: pre-wrap;
+}
+
+.left {
+  color: var(--text-3);
+  white-space: nowrap;
+}
+
+.num {
+  color: var(--console-num);
+}
+
+.string {
+  color: var(--console-string);
+}
+
+.none {
+  color: var(--console-none);
+}
+
+.bool {
+  color: var(--console-bool);
+}
+
+.symbol {
+  color: var(--console-symbol);
+}

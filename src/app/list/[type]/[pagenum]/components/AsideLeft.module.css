@@ -1,0 +1,52 @@
+.wrap {
+  position: fixed;
+  margin-top: 16px;
+  margin-left: 32px;
+  margin-right: 16px;
+  top: var(--header-h);
+  left: 0;
+  z-index: 9;
+  overflow-y: auto;
+  transition: opacity 250ms;
+  line-height: 1.5;
+  width: calc(var(--center-rest) - 64px);
+  height: calc(100vh - var(--header-h));
+}
+
+@media screen and (max-width: 960px) {
+  .wrap {
+    display: none;
+  }
+}
+
+.year {
+  font-weight: 600;
+  font-size: 18px;
+  padding-bottom: 8px;
+}
+
+.item + .item {
+  padding-top: 12px;
+}
+
+.links {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding-left: 12px;
+  font-size: 13.5px;
+  margin: 0;
+
+  & > li {
+    line-height: 1.25;
+    list-style: none;
+    & > a {
+      color: var(--text-2);
+      transition: color 150ms;
+
+      &:hover {
+        color: var(--text);
+      }
+    }
+  }
+}

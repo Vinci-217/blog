@@ -1,0 +1,39 @@
+.wrap {
+  position: relative;
+  width: 100%;
+
+  &:hover {
+    .action {
+      pointer-events: all;
+      opacity: 1;
+    }
+  }
+}
+
+.action {
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  opacity: 0;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  pointer-events: none;
+  overflow: hidden;
+  color: var(--text-2);
+  transition: opacity 300ms ease-out, color 150ms;
+
+  & svg {
+    display: inline-block;
+    box-sizing: content-box;
+    background-color: var(--bg-md-pre);
+    border-radius: 6px;
+    font-size: 20px;
+    padding: 10px;
+    cursor: pointer;
+    border: 1px solid var(--divider);
+  }
+  &:hover {
+    color: var(--text-1);
+  }
+}

@@ -1,0 +1,25 @@
+.content {
+  margin: 36px 0;
+}
+
+.link {
+  margin-bottom: 32px;
+  display: block;
+  display: flex;
+  gap: 16px;
+}
+
+.image {
+  border-radius: 4px;
+}
+
+.title {
+  font-size: 18px;
+}
+
+.subtitle {
+  margin-top: 4px;
+  color: var(--text-3);
+  font-size: 16px;
+  font-weight: 600;
+}
