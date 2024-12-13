@@ -18,6 +18,7 @@ on:
       - 'postcss.config.js'
       - 'package.json'
       - 'pnpm-lock.yaml'
+      - 'data/**'
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
