@@ -22,7 +22,7 @@ function About() {
         constructive suggestions on my blog. THX !
       </div>
       <ul>
-        <li>I started learning Java in 2021.</li>
+        <li>I started learning Java in 2024.04.</li>
         <li>I landed my first job as a Java developer at Meituan in 2024.12.09</li>
         <li>I started building this blog in 2024.12.12</li>
       </ul>
