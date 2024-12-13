@@ -16,19 +16,19 @@ function About() {
         <Tag icon="#">Student</Tag>
       </div>
       <div className={styles.desc}>
-        I'm a college student from China, currently studying electronic
-        information at Hangzhou Dianzi University. Passion for open source and
+        I'm a college student from China, currently studying Computer
+        Science at Harbin Institution of Technology. Passion for open source and
         recording my learning experience. I really hope you can give me
         constructive suggestions on my blog. THX !
       </div>
       <ul>
-        <li>I started learning programming in 2021.</li>
-        <li>I landed my first job as a Web developer in 2024.03.16</li>
-        <li>I started building this blog in 2024.10.01</li>
+        <li>I started learning Java in 2021.</li>
+        <li>I landed my first job as a Java developer at Meituan in 2024.12.09</li>
+        <li>I started building this blog in 2024.12.12</li>
       </ul>
       <div></div>
       <div className={styles.tag}>
-        <Tag icon="#">Web</Tag>
+        <Tag icon="#">Java</Tag>
         <Tag icon="#">Programming</Tag>
       </div>
       <div>
@@ -36,7 +36,7 @@ function About() {
         <Link
           className="link"
           target="_blank"
-          href="/posts/blog/How-I-Build-My-Blog"
+          href="https://blog.plumbiu.top/posts/blog/How-I-Build-My-Blog"
         >
           How this blog works
         </Link>

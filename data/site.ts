@@ -1,12 +1,12 @@
-export const BlogUrl = 'https://blog.plumbiu.top/'
+export const BlogUrl = 'https://github.com/Vinci-217/blog/'
 
-export const BlogAuthor = 'Plumbiu'
+export const BlogAuthor = 'Vinci-217'
 
 export const GithubName = BlogAuthor
 
 export const RepoName = 'blog'
 
-export const RepoUrl = `https://github.com/Plumbiu/${RepoName}`
+export const RepoUrl = `https://github.com/Vinci/${RepoName}`
 
 export const RepoLinksUrl = `${RepoUrl}/blob/main/data/links.json`
 
