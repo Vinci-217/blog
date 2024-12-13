@@ -40,7 +40,7 @@ async function Links() {
               alt={name}
               placeholder="blur"
               blurDataURL={base64}
-              src={avatar}
+              src={'/links/' + avatar}
               className={styles.image}
               width={48}
               height={48}
