@@ -47,6 +47,10 @@ const nextConfig = {
         destination: '/list/blog/1',
       },
       {
+        source: '/blog',
+        destination: '/list/blog/1',
+      },
+      {
         source: '/list',
         destination: '/list/blog/1',
       },
