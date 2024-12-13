@@ -40,17 +40,6 @@ const nextConfig = {
     path: `${BasePath}/_next/image`,
   },
   output: IS_GITPAGE ? 'export' : undefined,
-
-  async redirects() {
-    return [
-      {
-       source: '/',
-       destination: '/list/blog/1',
-        permanent: true,
-     },
-    ]
-  },
-
   async rewrites() {
     return [
       {
